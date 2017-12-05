@@ -149,48 +149,66 @@ section:hover {
 /* THIRD BREAKPOINT (DESKTOP SIZE) */
 @media screen and (min-width: 1200px) {
 
-body {
+body
+{
   margin:0;
   padding:0;
   background: #0FF;
 }
-header {
+.image_gallery
+{width:80%;
+margin:0 auto;
+}
+header
+{
   background: #ccc;
   color: #444;
   text-align: center;
 }
-h1 {
+h1
+{
   font-size: 3.5em;
   margin: 0;
   padding: 1em;
 }
-h2 {
+h2
+{
   font-size: 2.0em;
 }
-/*main {
-  max-width: 1000px;
-  margin: 0 auto;
-  background: #eee;
-  text-align: center;
-  padding: 2px;
-}*/
-section {
+
+section
+{
   font-size: 1.25em;
   background: #888;
   width: 22%;
   margin: 1em 1% 1em 1%;
   display: inline-block;
 }
-section:hover {
+section:hover
+{
   background: #666;
 }
 
-
-  /*
-    - applies to screens larger than 999px only
-    - add a max-width to your main section
-    - further decrease size of sections
-    - increase size of headings and global fonts
-  */
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
 }
-/* END THIRD BREAKPOINT */
+
+.box:nth-child(even) {
+  background-color: #ccc;
+  color: #000;
+}
+
+    .wrapper
+    {
+        width: 600px;
+        display: grid;
+    grid-gap: 10px;
+        grid-template-columns: repeat(4, 100px);
+    }
+
+}
+/*Close of largest screen setting*/
