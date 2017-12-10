@@ -4,9 +4,9 @@
 
 2017-12-02 Icons, pictures and text spacing added.
 
-2017-12-09 Divs added, text has been broken up so as to effect different styles.  Second grid modified.  Hovers added to both grids.  links added to pictures. Footer added.  
+2017-12-09 Divs added, text has been broken up so as to effect different styles.  Second grid modified.  Hovers added to both grids.  links added to pictures. Footer added. 
 
-2017-12-
+2017-12-10 Hover boxes set up, layout finalised, colour scheme started. 
 
 2017-12-
 
