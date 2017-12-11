@@ -207,40 +207,44 @@ background-color: grey;
 margin-top: 20px;
 margin-bottom: 50px;
 }
+.intro p{
+  margin: 6px 0 0 15px;
+}
 .info_1
 {
 display: block;
 height: auto;
 width:auto;
-background-color: blue;
+background-color: grey;
 }
 .info_2
 {
 display: block;
 height: auto;
 width:auto;
-background-color: red;
+background-color: grey;
 }
 .info_3
 {
 display: block;
 height: auto;
 width:auto;
-background-color: blue;
+background-color: grey;
 }
 .info_4
 {
 display: block;
 height: auto;
 width:auto;
-background-color: blue;
+background-color: grey;
 }
+
 .info_5
 {
 display: block;
 height: auto;
 width:auto;
-background-color: white;
+background-color: grey;
 font-size: 25px;
 }
 .info_6
@@ -248,14 +252,23 @@ font-size: 25px;
 display: block;
 height: auto;
 width:auto;
-background-color: blue;
+background-color: grey;
 }
 .info_7
 {
 display: block;
 height: auto;
 width:auto;
-background-color: blue;
+background-color: grey;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+.swarm
+{
+  display: block;
+  float: right;
+  margin-top: 130px;
+  padding-right: 145px;
 }
 /*All styles for info boxes  END*/
 

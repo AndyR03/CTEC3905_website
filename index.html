@@ -11,7 +11,8 @@
 <main>
 <div class="intro">
 <h1>An Introduction to Docker Containers</h1>
-<p>Docker is the company driving the container movement and the only container platform provider to address every application across the hybrid cloud. Today's businesses are under pressure to digitally transform but are constrained by existing applications and infrastructure while rationalizing an increasingly diverse portfolio of clouds, datacenters and application architectures. Docker enables true independence between applications and infrastructure and developers and IT ops to unlock their potential and creates a model for better collaboration and innovation. </p>
+<p>Docker is the company driving the container movement and the only container platform provider to address every application across the hybrid cloud.<br / />Today's businesses are under pressure to digitally transform but are constrained by existing applications and infrastructure while rationalizing an increasingly diverse portfolio of clouds, datacenters and application architectures. Docker enables true independence between applications and infrastructure and developers and IT ops to unlock their potential and creates a model for better collaboration and innovation. </p>
+<p>The following instructions are for Docker Containers on a Linux machine.</p>
 </div>
 
 <div class="select">
@@ -26,116 +27,140 @@
 <a href="#reading"><img src="images/docker-container_ICON_8.jpg" alt="Docker Logo" class="image"></a>
 </section>
 </div>
-
+<div class="swarm">
+  <img src="images/Swarmnado-357x627-30-1.gif" alt="Docker Logo" class="image">
+</div>
 <div class="how_works">
 <h2 id="how_works">How Docker Containers Work</h2>
-<p>waffle waffle waffle</p>
+<p>Move your cursor over the grid to reveal the secrets and magic of Docker Containers.</p>
 <div class="wrapper_1">
-  <div class="box a1"><p id="tooltipm"><a href="javascript:;">Container 1<span>The container is built on the host with very basic dependables.</span></a></p></div>
-  <div class="box b1"><p id="tooltipm"><a href="javascript:;">Container Applications<span>Bacon ipsum dolor amet strip steak jerky andouille short ribs,</span></a></p></div>
-  <div class="box c1"><p id="tooltipm"><a href="javascript:;">Container Dependables<span>Bacon ipsum dolor amet strip steak jerky andouille short ribs,</span></a></p></div>
-  <div class="box d1"><p id="tooltipm"><a href="javascript:;">Container Support Files<span>Bacon ipsum dolor amet strip steak jerky andouille short ribs,</span></a></p></div>
-  <div class="box e1"><p id="tooltipm"><a href="javascript:;">App 1<span>Bacon ipsum dolor amet strip steak jerky andouille short ribs,</span></a></p></div>
-  <div class="box f1"><p id="tooltipm"><a href="javascript:;">Container 2<span>Bacon ipsum dolor amet strip steak jerky andouille short ribs,</span></a></p></div>
-  <div class="box g1"><p id="tooltipm"><a href="javascript:;">Container Applications<span>Bacon ipsum dolor amet strip steak jerky andouille short ribs,</span></a></p></div>
-  <div class="box h1"><p id="tooltipm"><a href="javascript:;">Container Dependables<span>Bacon ipsum dolor amet strip steak jerky andouille short ribs,</span></a></p></div>
-  <div class="box i1"><p id="tooltipm"><a href="javascript:;">Container Support Files<span>Bacon ipsum dolor amet strip steak jerky andouille short ribs,</span></a></p></div>
-  <div class="box j1"><p id="tooltipm"><a href="javascript:;">App 2<span>Bacon ipsum dolor amet strip steak jerky andouille short ribs,</span></a></p></div>
-  <div class="box k1"><p id="tooltipm"><a href="javascript:;">Host Running Applications<span>Bacon ipsum dolor amet strip steak jerky andouille short ribs,</span></a></p></div>
-  <div class="box l1"><p id="tooltipm"><a href="javascript:;">Host Application Files<span>sghsfgjfgjdgfj,</span></a></p></div>
-  <div class="box m1"><p id="tooltipm"><a href="javascript:;">Host Operating System Kernel<span>Bacon ipsum dolor amet strip steak jerky andouille short ribs,</span></a></p></div>
+  <div class="box a1"><p id="tooltipm"><a href="javascript:;">Container 1<span>Docker containers isolate applications from one another and from the underlying infrastructure. Docker provides the strongest default isolation to limit app issues to a single container instead of the entire machine.</span></a></p></div>
+  <div class="box b1"><p id="tooltipm"><a href="javascript:;">Container Applications<span>Using Docker to create and manage containers may simplify the creation of highly distributed systems by allowing multiple applications, worker tasks and other processes to run autonomously on a single physical machine or across multiple virtual machines.</span></a></p></div>
+  <div class="box c1"><p id="tooltipm"><a href="javascript:;">Container Dependables<span>A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings. Available for both Linux and Windows based apps, containerized software will always run the same, regardless of the environment.</span></a></p></div>
+  <div class="box d1"><p id="tooltipm"><a href="javascript:;">Container Support Files<span>This allows you to keep your images as generic as possible, without the need to bind-mount configuration files into the containers or use environment ... Configs are supported on both Linux and Windows services.</span></a></p></div>
+  <div class="box e1"><p id="tooltipm"><a href="javascript:;">App 1<span>With the release of Docker 1.0 in June 2014, the buzz became a roar. All the noise is happening because companies are adopting Docker at a remarkable rate. At OSCon in July 2014, numerous businesses are already moving their server applications from virtual machines. </span></a></p></div>
+  <div class="box f1"><p id="tooltipm"><a href="javascript:;">Container 2<span>A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings. Available for both Linux and Windows based apps, containerized software will always run the same, regardless of the environment.</span></a></p></div>
+  <div class="box g1"><p id="tooltipm"><a href="javascript:;">Container Applications<span>Containers are exploding onto the application development scene, especially when it comes to cloud computing. This is largely because portability has been a big chasm in this area, given the proprietary nature of some public clouds.</span></a></p></div>
+  <div class="box h1"><p id="tooltipm"><a href="javascript:;">Container Dependables<span>After containerizing the application using 'docker build,' we need to run the application container to run server integration tests. This allows us to verify the application server configuration to ensure we are consistent and dependable after running Docker containers.</span></a></p></div>
+  <div class="box i1"><p id="tooltipm"><a href="javascript:;">Container Support Files<span>Data volumes and the storage driver. When a container is deleted, any data written to the container that is not stored in a data volume is deleted along with the container. A data volume is a directory or file in the Docker host's filesystem that is mounted directly into a container.</span></a></p></div>
+  <div class="box j1"><p id="tooltipm"><a href="javascript:;">App 2<span>Docker is a tool that can package an application and its dependencies in a virtual container that can run on any Linux server. This helps enable flexibility and portability on where the application can run,</span></a></p></div>
+  <div class="box k1"><p id="tooltipm"><a href="javascript:;">Host Running Applications<span>You can mount folders from your host to the container to make it accessible from within your container:</span></a></p></div>
+  <div class="box l1"><p id="tooltipm"><a href="javascript:;">Host Application Files<span>These platforms offer a series of Linux-based application containers (that appear like virtual machines) where you deploy the code you developed on your local computer with a set of command line keywords.</span></a></p></div>
+  <div class="box m1"><p id="tooltipm"><a href="javascript:;">Host Operating System Kernel<span>The Linux kernel is an open source monolithic Unix-like computer operating system kernel. The Linux family of operating systems is based on this kernel and deployed on both traditional computer systems such as personal computers and servers, usually in the form of Linux distributions, and on various embedded devices.</span></a></p></div>
 </div>
 </div>
 
 <div class="info_1">
   <h2 id="install">Install Docker</h2>
-  <p>#Quick Install
-sudo curl -fsSL get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
-
-#Add a user
-sudo usermod -aG docker "your-user"
-
-#Check installation
-sudo docker run hello-world
-
-#Another good check
-sudo docker run -it ubuntu bash</p>
+  <p>#Quick Install</p>
+  <p>sudo curl -fsSL get.docker.com -o get-docker.sh</p>
+  <p>sudo sh get-docker.sh</p>
+  <p>#Add a user</p>
+  <p>sudo usermod -aG docker "your-user"</p>
+  <p>#Check installation</p>
+  <p>sudo docker run hello-world</p>
+  <p>#Another good check</p>
+  <p>sudo docker run -it ubuntu bash</p>
 </div>
 
 <div class="info_2">
   <h2 id="post">Post Installation</h2>
-  <p>waffle waffle waffle</p>
+  <p>To create the docker group and add your user:</p>
+  <p> Create the docker group.</p>
+  <p> $ sudo groupadd docker</p>
+  <p> Add your user to the docker group.</p>
+  <p> $ sudo usermod -aG docker $USER</p>
+  <p> Log out and log back in so that your group membership is re-evaluated.</p>
+  <p> If testing on a virtual machine, it may be necessary to restart the virtual machine for changes to take effect.</p>
+  <p> On a desktop Linux environment such as X Windows, log out of your session completely and then log back in.</p>
+  <p> Verify that you can run docker commands without sudo.</p>
+  <p> $ docker run hello-world</p>
 </div>
 
 <div class="info_3">
   <h2 id="install_c">Install a Container</h2>
-  <p>waffle waffle waffle</p>
+  <p>Create an empty directory. Change directories (cd) into the new directory, create a file called Dockerfile, copy-and-paste the following content into that file, and save it. Take note of the comments that explain each statement in your new Dockerfile.</p>
+
+<p># Set the working directory to /app</p>
+<p>WORKDIR /app</p>
+<p># Copy the current directory contents into the container at /app</p>
+<p>ADD . /app</p>
+<p># Install any needed packages specified in requirements.txt</p>
+<p>RUN pip install --trusted-host pypi.python.org -r requirements.txt</p>
+<p># Make port 80 available to the world outside this container</p>
+<p>EXPOSE 80</p>
+<p># Define environment variable</p>
+<p>ENV NAME World</p>
+<p># Run app.py when the container launches</p>
+<p>CMD ["python", "app.py"]</p>
 </div>
 
 <div class="info_4">
   <h2 id="commands">Commands</h2>
-  <p>Command 	Description
-docker attach 	    Attach local standard input, output, and error streams to a running container
-docker build 	      Build an image from a Dockerfile
-docker checkpoint 	Manage checkpoints
-docker commit 	    Create a new image from a container’s changes
-docker config 	    Manage Docker configs
-docker container 	  Manage containers
-docker cp 	        Copy files/folders between a container and the local filesystem
-docker create 	    Create a new container
-docker deploy 	    Deploy a new stack or update an existing stack
-docker diff 	      Inspect changes to files or directories on a container’s filesystem
-docker events 	    Get real time events from the server
-docker exec 	      Run a command in a running container
-docker export 	    Export a container’s filesystem as a tar archive
-docker history 	    Show the history of an image
-docker image 	      Manage images
-docker images 	    List images
-docker import 	    Import the contents from a tarball to create a filesystem image
-docker info 	      Display system-wide information
-docker inspect 	    Return low-level information on Docker objects
-docker kill 	      Kill one or more running containers
-docker load 	      Load an image from a tar archive or STDIN
-docker login 	      Log in to a Docker registry
-docker logout 	    Log out from a Docker registry
-docker logs 	      Fetch the logs of a container
-docker network 	    Manage networks
-docker node 	      Manage Swarm nodes
-docker pause 	      Pause all processes within one or more containers
-docker plugin 	    Manage plugins
-docker port 	      List port mappings or a specific mapping for the container
-docker ps 	        List containers
-docker pull 	      Pull an image or a repository from a registry
-docker push 	      Push an image or a repository to a registry
-docker rename 	    Rename a container
-docker restart     	Restart one or more containers
-docker rm 	        Remove one or more containers
-docker rmi        	Remove one or more images
-docker run         	Run a command in a new container
-docker save       	Save one or more images to a tar archive (streamed to STDOUT by default)
-docker search     	Search the Docker Hub for images
-docker secret 	    Manage Docker secrets
-docker service    	Manage services
-docker stack      	Manage Docker stacks
-docker start      	Start one or more stopped containers
-docker stats      	Display a live stream of container(s) resource usage statistics
-docker stop 	      Stop one or more running containers
-docker swarm      	Manage Swarm
-docker system 	    Manage Docker
-docker tag        	Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
-docker top        	Display the running processes of a container
-docker unpause 	    Unpause all processes within one or more containers
-docker update 	    Update configuration of one or more containers
-docker version     	Show the Docker version information
-docker volume 	    Manage volumes
-docker wait        	Block until one or more containers stop, then print their exit codes
-</p>
+  <p>Command 	Description</p>
+<ul>
+  <li>docker attach&#8594;   Attach local standard input, output, and error streams to a running container</li>
+  <li>docker build&#8594;    Build an image from a Dockerfile</li>
+  <li>docker checkpoint 	   Manage checkpoints</li>
+  <li>docker commit&#8594;   Create a new image from a container’s changes</li>
+  <li>docker config&#8594;   Manage Docker configs</li>
+  <li>docker container&#8594;Manage containers</li>
+  <li>docker cp&#8594;       Copy files/folders between a container and the local filesystem</li>
+  <li>docker create&#8594;   Create a new container</li>
+  <li>docker deploy&#8594;   Deploy a new stack or update an existing stack</li>
+  <li>docker diff&#8594;     Inspect changes to files or directories on a container’s filesystem</li>
+  <li>docker events&#8594;   Get real time events from the server</li>
+  <li>docker exec&#8594;     Run a command in a running container</li>
+  <li>docker export&#8594;   Export a container’s filesystem as a tar archive</li>
+  <li>docker history&#8594;  Show the history of an image</li>
+  <li>docker image&#8594;    Manage images</li>
+  <li>docker images&#8594;   List images</li>
+  <li>docker import&#8594;   Import the contents from a tarball to create a filesystem image</li>
+  <li>docker info&#8594;     Display system-wide information</li>
+  <li>docker inspect&#8594;  Return low-level information on Docker objects</li>
+  <li>docker kill&#8594;     Kill one or more running containers</li>
+  <li>docker load&#8594;     Load an image from a tar archive or STDIN</li>
+  <li>docker login&#8594;    Log in to a Docker registry</li>
+  <li>docker logout&#8594;   Log out from a Docker registry</li>
+  <li>docker logs&#8594;     Fetch the logs of a container</li>
+  <li>docker network&#8594 ; Manage networks</li>
+  <li>docker node&#8594;     Manage Swarm nodes</li>
+  <li>docker pause&#8594;    Pause all processes within one or more containers</li>
+  <li>docker plugin&#8594;   Manage plugins</li>
+  <li>docker port&#8594;     List port mappings or a specific mapping for the container</li>
+  <li>docker ps&#8594;       List containers</li>
+  <li>docker pull&#8594;     Pull an image or a repository from a registry</li>
+  <li>docker push&#8594;     Push an image or a repository to a registry</li>
+  <li>docker rename&#8594;   Rename a container</li>
+  <li>docker restart&#8594;  Restart one or more containers</li>
+  <li>docker rm&#8594;       Remove one or more containers</li>
+  <li>docker rmi&#8594;      Remove one or more images</li>
+  <li>docker run&#8594;      Run a command in a new container</li>
+  <li>docker save&#8594;     Save one or more images to a tar archive (streamed to STDOUT by default)</li>
+  <li>docker search&#8594;	 Search the Docker Hub for images</li>
+  <li>docker secret&#8594;   Manage Docker secrets</li>
+  <li>docker service&#8594;  Manage services</li>
+  <li>docker stack&#8594;    Manage Docker stacks</li>
+  <li>docker start&#8594;    Start one or more stopped containers</li>
+  <li>docker stats&#8594;    Display a live stream of container(s) resource usage statistics</li>
+  <li>docker stop&#8594;     Stop one or more running containers</li>
+  <li>docker swarm&#8594;    Manage Swarm</li>
+  <li>docker system&#8594;   Manage Docker</li>
+  <li>docker tag&#8594;      Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE</li>
+  <li>docker top&#8594;      Display the running processes of a container</li>
+  <li>docker unpause&#8594;  Unpause all processes within one or more containers</li>
+  <li>docker update&#8594;   Update configuration of one or more containers</li>
+  <li>docker version&#8594;  Show the Docker version information</li>
+  <li>docker volume&#8594;   Manage volumes</li>
+  <li>docker wait&#8594;     Block until one or more containers stop, then print their exit codes</li>
+</ul>
+
+
 </div>
 
 <div class="how_works">
 <div class="info_5">
-  <h2 id="test">Test Yourself</h2><p>Do you know which command is needed for the following actions? &nbsp; &nbsp; Hover over the box to reveal the answer.</p>
+  <h3 id="test">Test Yourself</h3><p>Do you know which command is needed for the following actions? &nbsp; &nbsp; Hover over the box to reveal the answer.</p>
 </div>
 <div class="wrapper_2">
   <div class="box2 a2"><p id="tooltipm"><a href="javascript:;">List all the containers installed<span>~$ docker ps</span></a></p></div>
@@ -155,19 +180,30 @@ docker wait        	Block until one or more containers stop, then print their ex
 
 <div class="info_6">
   <h2 id="update">Latest Updates</h2>
-  <p>waffle waffle waffle</p>
+  <p>If you haven’t already, open a terminal and ssh into the machine where you run your manager node. For example, the tutorial uses a machine named manager1.</p>
+  <p>Deploy Redis 3.0.6 to the swarm and configure the swarm with a 10 second update delay:</p>
+  <p>$ docker service create \</p>
+  <p>--replicas 3 \</p>
+  <p>--name redis \</p>
+  <p>--update-delay 10s \</p>
+  <p>redis:3.0.6</p>
+  <p>0u6a4s31ybk7yw2wyvtikmu50</p>
+
+
 </div>
 
 <div class="info_7">
   <h2 id="reading">Recommended Reading</h2>
-  <p>waffle waffle waffle</p>
+  <a href="https://www.docker.com/"> Docker Offical</a><br />
+  <a href="https://docs.docker.com/"> Docker Docs</a><br />
+  <a href="https://store.docker.com/">Docker Store</a>
 </div>
 
 <!-- footer start-->
 <div class="footer">
   <footer>
-    <a href="">Facebook</a>
-    <a href="">Twitter</a>
+    <a href="https://www.facebook.com/docker.run/">Docker on Facebook</a>
+    <a href="https://twitter.com/Docker?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Docker on Twitter</a>
     <a href="http://www.dmu.ac.uk/">DMU Homepage</a>
     <a href="">Page Top</a>
     <p>&copy;Andy Rose CTEC3905 Course Work</p>
