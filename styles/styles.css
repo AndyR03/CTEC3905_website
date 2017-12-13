@@ -1,21 +1,20 @@
-<<<<<<< HEAD
+
 /*Mobile size starts at below 399px width*/
 body
 {
-=======
+
 body
 {
   font-family: 'Open Sans', sans-serif;
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
+
   margin:0;
   padding:0;
   background: #fff;
 }
-<<<<<<< HEAD
+HEAD
 header
 {
   background: #000;
-=======
 main
 {
   margin: 0 1em;
@@ -23,13 +22,11 @@ main
 header
 {
   background: #fff;
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
   color: #000;
   text-align: center;
 }
 h1
 {
-<<<<<<< HEAD
   font-size: 1.5em;
   margin: 0;
   padding: 1em;
@@ -47,7 +44,7 @@ section
   display: inline-block;
 }
 
-=======
+
   font-size: 2.0em;
   text-align: center;
   background: #fff;
@@ -74,13 +71,13 @@ section
   margin: 1em 1% 1em 1%;
   display: inline-block;
 }
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
+
 section:hover
 {
   background: #fff;
 }
 
-<<<<<<< HEAD
+
 /*All styles for info boxes*/
 .intro
 {
@@ -711,7 +708,7 @@ grid-column: 2 / 12;
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
 @media screen and (min-width: 1000px)
-=======
+
 .footer
 {
   display: block;
@@ -818,7 +815,7 @@ section:hover {
 
 /* THIRD BREAKPOINT (DESKTOP SIZE) */
 @media screen and (min-width: 1200px)
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
+
 {
 body
 {
@@ -875,7 +872,7 @@ margin-bottom: 50px;
 .intro p{
   margin: 6px 0 0 15px;
 }
-<<<<<<< HEAD
+
 .select
 {
   display: block;
@@ -894,8 +891,8 @@ image
   margin-top: 130px;
   padding-right: 145px;
 }
-=======
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
+
+
 .info_1
 {
 display: block;
@@ -924,10 +921,10 @@ height: auto;
 width:auto;
 background-color: grey;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
+
+
+
 .info_5
 {
 display: block;
@@ -952,7 +949,7 @@ background-color: grey;
 margin-top: 20px;
 margin-bottom: 50px;
 }
-<<<<<<< HEAD
+
 /*All styles for info boxes  END*/
 
 /*How it works*/
@@ -980,7 +977,7 @@ margin-bottom: 50px;
   color: white;
 }
 /*Position described by across the columns 1 digit = 1 space, 1/3 is two spaces starting at first digit-ending BEFORE second digit.*/
-=======
+
 .swarm
 {
   display: block;
@@ -1026,7 +1023,7 @@ image
 
 }
 
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
+
 .a1
 {
  grid-column: 1 / 3;
@@ -1091,12 +1088,12 @@ image
 {
  grid-column: 1 / 7;
  grid-row: 7;
-<<<<<<< HEAD
+
 
 }
 /*Questions and Answers*/
 /*Another Grid*/
-=======
+
  color: #b1874cd !imortant;
 }
 
@@ -1104,18 +1101,18 @@ image
 }
 /*Questions and Answers*/
 
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
+
 .wrapper_2
 {
        display: grid;
        grid-gap: 10px;
-<<<<<<< HEAD
+
        grid-template-columns: 80px 80px 80px;
        grid-auto-columns: 80px;
-=======
+
        grid-template-columns: 100px 100px 100px;
        grid-auto-columns: 100px;
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
+
        background-color: #fff;
        color: #fff;
 }
@@ -1188,20 +1185,20 @@ image
  grid-column: 10 / 13 ;
  grid-row: 3;
 }
-<<<<<<< HEAD
+
 /*Settings for hover on the grids*/
 #tooltipm
 {
   position: relative;
   font-size: 5px;
-=======
+
 
 #tooltipm
 {
   position: relative;
   font-size 5px;
 
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
+
 }
 #tooltipm a span
 {
@@ -1214,20 +1211,20 @@ image
   position: absolute;
   width: 400px;
   background: #fff;
-<<<<<<< HEAD
+
   color: red;
-=======
+
   color: red:
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
+
   height: 100px;
   left: auto;
   top: -40px;
   font-size: 18px;
   padding: 0 5px;
   }
-<<<<<<< HEAD
-=======
 
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
+
+
+
 }
 /*Close of largest screen setting*/
