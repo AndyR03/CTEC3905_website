@@ -8,11 +8,17 @@
 
 2017-12-10 Hover boxes set up, layout finalised, colour scheme started. 
 
+<<<<<<< HEAD
 2017-12-Divs added to text and text finished.  Gif added, links to third parties added.
 
 To be done,  Response, HTML and CSS testing.
 
 2017-12-Response started, HTML and CSS tested faults cleared. Video of site critique made with James.
+=======
+2017-12-
+
+2017-12-
+>>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
 
 2017-12-
 
