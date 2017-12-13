@@ -3,44 +3,42 @@
 <head>
   <meta charset="utf-8">
   <title>Intro to Docker</title>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
-<link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
-
 <body>
+
 <main>
 <div class="intro">
-<h1>An Introduction to Docker Containers</h1>
-<<<<<<< HEAD
-<p>Docker is the company driving the container movement and the only container platform provider to address every application across the hybrid cloud.<br/>Today's businesses are under pressure to digitally transform but are constrained by existing applications and infrastructure while rationalizing an increasingly diverse portfolio of clouds, datacenters and application architectures. Docker enables true independence between applications and infrastructure and developers and IT ops to unlock their potential and creates a model for better collaboration and innovation. </p>
-=======
-<p>Docker is the company driving the container movement and the only container platform provider to address every application across the hybrid cloud.<br / />Today's businesses are under pressure to digitally transform but are constrained by existing applications and infrastructure while rationalizing an increasingly diverse portfolio of clouds, datacenters and application architectures. Docker enables true independence between applications and infrastructure and developers and IT ops to unlock their potential and creates a model for better collaboration and innovation. </p>
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
-<p>The following instructions are for Docker Containers on a Linux machine.</p>
+  <h1>An Introduction to Docker Containers</h1>
+  <p>Docker is the company driving the container movement and the only container platform provider to address every application across the hybrid cloud.<br/>Today's businesses are under pressure to digitally transform but are constrained by existing applications and infrastructure while rationalizing an increasingly diverse portfolio of clouds, datacenters and application architectures. Docker enables true independence between applications and infrastructure and developers and IT ops to unlock their potential and creates a model for better collaboration and innovation. </p>
+  <p>Docker is the company driving the container movement and the only container platform provider to address every application across the hybrid cloud.<br / />Today's businesses are under pressure to digitally transform but are constrained by existing applications and infrastructure while rationalizing an increasingly diverse portfolio of clouds, datacenters and application architectures. Docker enables true independence between applications and infrastructure and developers and IT ops to unlock their potential and creates a model for better collaboration and innovation. </p>
+  <p>The following instructions are for Docker Containers on a Linux machine.</p>
 </div>
 
 <div class="select">
-<section class="image_gallery">
-<<<<<<< HEAD
-<h3>Choose a Section</h3>
-=======
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
-<a href="#how_works"><img src="images/docker-container_ICON_1.jpg" alt="Docker Logo" class="image"></a>
-<a href="#install"><img src="images/docker-container_ICON_2.jpg" alt="Docker Logo" class="image"></a>
-<a href="#post"><img src="images/docker-container_ICON_3.jpg" alt="Docker Logo" class="image"></a>
-<a href="#install_c"><img src="images/docker-container_ICON_4.jpg" alt="Docker Logo" class="image"></a>
-<a href="#commands"><img src="images/docker-container_ICON_5.jpg" alt="Docker Logo" class="image"></a>
-<a href="#test"><img src="images/docker-container_ICON_6.jpg" alt="Docker Logo" class="image"></a>
-<a href="#update"><img src="images/docker-container_ICON_7.jpg" alt="Docker Logo" class="image"></a>
-<a href="#reading"><img src="images/docker-container_ICON_8.jpg" alt="Docker Logo" class="image"></a>
-</section>
+  <section class="image_gallery">
+    <h3>Choose a Section</h3>
+    <a href="#how_works"><img src="images/docker-container_ICON_1.jpg" alt="Docker Logo" class="image"></a>
+    <a href="#install"><img src="images/docker-container_ICON_2.jpg" alt="Docker Logo" class="image"></a>
+    <a href="#post"><img src="images/docker-container_ICON_3.jpg" alt="Docker Logo" class="image"></a>
+    <a href="#install_c"><img src="images/docker-container_ICON_4.jpg" alt="Docker Logo" class="image"></a>
+    <a href="#commands"><img src="images/docker-container_ICON_5.jpg" alt="Docker Logo" class="image"></a>
+    <a href="#test"><img src="images/docker-container_ICON_6.jpg" alt="Docker Logo" class="image"></a>
+    <a href="#update"><img src="images/docker-container_ICON_7.jpg" alt="Docker Logo" class="image"></a>
+    <a href="#reading"><img src="images/docker-container_ICON_8.jpg" alt="Docker Logo" class="image"></a>
+  </section>
 </div>
-<div class="swarm">
-  <img src="images/Swarmnado-357x627-30-1.gif" alt="Docker Logo" class="image">
-</div>
+
+  <div class="swarm">
+    <img src="images/Swarmnado-357x627-30-1.gif" alt="Docker Logo" class="image">
+  </div>
+
+
 <div class="how_works">
 <h2 id="how_works">How Docker Containers Work</h2>
 <p>Move your cursor over the grid to reveal the secrets and magic of Docker Containers.</p>
+</div>
 <div class="wrapper_1">
   <div class="box a1"><p id="tooltipm"><a href="javascript:;">Container 1<span>Docker containers isolate applications from one another and from the underlying infrastructure. Docker provides the strongest default isolation to limit app issues to a single container instead of the entire machine.</span></a></p></div>
   <div class="box b1"><p id="tooltipm"><a href="javascript:;">Container Applications<span>Using Docker to create and manage containers may simplify the creation of highly distributed systems by allowing multiple applications, worker tasks and other processes to run autonomously on a single physical machine or across multiple virtual machines.</span></a></p></div>
@@ -88,19 +86,18 @@
 <div class="info_3">
   <h2 id="install_c">Install a Container</h2>
   <p>Create an empty directory. Change directories (cd) into the new directory, create a file called Dockerfile, copy-and-paste the following content into that file, and save it. Take note of the comments that explain each statement in your new Dockerfile.</p>
-
-<p># Set the working directory to /app</p>
-<p>WORKDIR /app</p>
-<p># Copy the current directory contents into the container at /app</p>
-<p>ADD . /app</p>
-<p># Install any needed packages specified in requirements.txt</p>
-<p>RUN pip install --trusted-host pypi.python.org -r requirements.txt</p>
-<p># Make port 80 available to the world outside this container</p>
-<p>EXPOSE 80</p>
-<p># Define environment variable</p>
-<p>ENV NAME World</p>
-<p># Run app.py when the container launches</p>
-<p>CMD ["python", "app.py"]</p>
+  <p># Set the working directory to /app</p>
+  <p>WORKDIR /app</p>
+  <p># Copy the current directory contents into the container at /app</p>
+  <p>ADD . /app</p>
+  <p># Install any needed packages specified in requirements.txt</p>
+  <p>RUN pip install --trusted-host pypi.python.org -r requirements.txt</p>
+  <p># Make port 80 available to the world outside this container</p>
+  <p>EXPOSE 80</p>
+  <p># Define environment variable</p>
+  <p>ENV NAME World</p>
+  <p># Run app.py when the container launches</p>
+  <p>CMD ["python", "app.py"]</p>
 </div>
 
 <div class="info_4">
@@ -131,11 +128,8 @@
   <li>docker login&#8594;    Log in to a Docker registry</li>
   <li>docker logout&#8594;   Log out from a Docker registry</li>
   <li>docker logs&#8594;     Fetch the logs of a container</li>
-<<<<<<< HEAD
   <li>docker network&#8594; Manage networks</li>
-=======
   <li>docker network&#8594 ; Manage networks</li>
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
   <li>docker node&#8594;     Manage Swarm nodes</li>
   <li>docker pause&#8594;    Pause all processes within one or more containers</li>
   <li>docker plugin&#8594;   Manage plugins</li>
@@ -166,36 +160,28 @@
   <li>docker volume&#8594;   Manage volumes</li>
   <li>docker wait&#8594;     Block until one or more containers stop, then print their exit codes</li>
 </ul>
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
 </div>
 
 <div class="how_works">
-<div class="info_5">
-  <h3 id="test">Test Yourself</h3><p>Do you know which command is needed for the following actions? &nbsp; &nbsp; Hover over the box to reveal the answer.</p>
-</div>
-<div class="wrapper_2">
-  <div class="box2 a2"><p id="tooltipm"><a href="javascript:;">List all the containers installed<span>~$ docker ps</span></a></p></div>
-  <div class="box2 b2"><p id="tooltipm"><a href="javascript:;">Checks your client and daemon API versions.<span>~$ docker version</span></a></p></div>
-  <div class="box2 c2"><p id="tooltipm"><a href="javascript:;">Export a container’s filesystem as a tar archive<span>~$ docker export</span></a></p></div>
-  <div class="box2 d2"><p id="tooltipm"><a href="javascript:;">Manage services<span>~$ docker service</span></a></p></div>
-  <div class="box2 e2"><p id="tooltipm"><a href="javascript:;">Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE<span>~$ docker tag</span></a></p></div>
-  <div class="box2 f2"><p id="tooltipm"><a href="javascript:;">Unpause all processes within one or more containers<span>~$ docker unpause</span></a></p></div>
-  <div class="box2 g2"><p id="tooltipm"><a href="javascript:;">Block until one or more containers stop, then print their exit codes<span>~$ docker wait</span></a></p></div>
-  <div class="box2 h2"><p id="tooltipm"><a href="javascript:;">Manage plugins<span>~$ docker plugins</span></a></p></div>
-  <div class="box2 i2"><p id="tooltipm"><a href="javascript:;">Start one or more stopped containers<span>~$ docker start xxx (first 3 ID numbers)</span></a></p></div>
-  <div class="box2 j2"><p id="tooltipm"><a href="javascript:;">Display a live stream of container(s) resource usage statistics<span>~$ docker stats</span></a></p></div>
-  <div class="box2 k2"><p id="tooltipm"><a href="javascript:;">List port mappings or a specific mapping for the container<span>~$ docker port</span></a></p></div>
-  <div class="box2 l2"><p id="tooltipm"><a href="javascript:;">Manage Swarm<span>~$ docker swarm</span></a></p></div>
-</div>
-<<<<<<< HEAD
-</div>
-=======
+  <div class="info_5">
+    <h2 id="test">Test Yourself</h2><p>Do you know which command is needed for the following actions? &nbsp; &nbsp; Hover over the box to reveal the answer.</p>
+  </div>
 
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
+  <div class="wrapper_2">
+    <div class="box2 a2"><p id="tooltipm"><a href="javascript:;">List all the containers installed<span>~$ docker ps</span></a></p></div>
+    <div class="box2 b2"><p id="tooltipm"><a href="javascript:;">Checks your client and daemon API versions.<span>~$ docker version</span></a></p></div>
+    <div class="box2 c2"><p id="tooltipm"><a href="javascript:;">Export a container’s filesystem as a tar archive<span>~$ docker export</span></a></p></div>
+    <div class="box2 d2"><p id="tooltipm"><a href="javascript:;">Manage services<span>~$ docker service</span></a></p></div>
+    <div class="box2 e2"><p id="tooltipm"><a href="javascript:;">Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE<span>~$ docker tag</span></a></p></div>
+    <div class="box2 f2"><p id="tooltipm"><a href="javascript:;">Unpause all processes within one or more containers<span>~$ docker unpause</span></a></p></div>
+    <div class="box2 g2"><p id="tooltipm"><a href="javascript:;">Block until one or more containers stop, then print their exit codes<span>~$ docker wait</span></a></p></div>
+    <div class="box2 h2"><p id="tooltipm"><a href="javascript:;">Manage plugins<span>~$ docker plugins</span></a></p></div>
+    <div class="box2 i2"><p id="tooltipm"><a href="javascript:;">Start one or more stopped containers<span>~$ docker start xxx (first 3 ID numbers)</span></a></p></div>
+    <div class="box2 j2"><p id="tooltipm"><a href="javascript:;">Display a live stream of container(s) resource usage statistics<span>~$ docker stats</span></a></p></div>
+    <div class="box2 k2"><p id="tooltipm"><a href="javascript:;">List port mappings or a specific mapping for the container<span>~$ docker port</span></a></p></div>
+    <div class="box2 l2"><p id="tooltipm"><a href="javascript:;">Manage Swarm<span>~$ docker swarm</span></a></p></div>
+  </div>
+</div>
 
 <div class="info_6">
   <h2 id="update">Latest Updates</h2>
@@ -207,46 +193,25 @@
   <p>--update-delay 10s \</p>
   <p>redis:3.0.6</p>
   <p>0u6a4s31ybk7yw2wyvtikmu50</p>
-<<<<<<< HEAD
 </div>
-=======
-
-
 </div>
 
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
 <div class="info_7">
   <h2 id="reading">Recommended Reading</h2>
   <a href="https://www.docker.com/"> Docker Offical</a><br />
   <a href="https://docs.docker.com/"> Docker Docs</a><br />
   <a href="https://store.docker.com/">Docker Store</a>
 </div>
-<<<<<<< HEAD
-</main>
-<!-- footer start-->
-<div class="footer">
-  <footer>
-    <h3 id="useful">Other Useful Information</h3>
-    <a href="https://www.facebook.com/docker.run/">Docker on Facebook</a><br />
-    <a href="https://twitter.com/Docker?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Docker on Twitter</a><br />
-    <a href="http://www.dmu.ac.uk/">DMU Homepage</a><br />
-=======
-
 <!-- footer start-->
 <div class="footer">
   <footer>
     <a href="https://www.facebook.com/docker.run/">Docker on Facebook</a>
     <a href="https://twitter.com/Docker?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Docker on Twitter</a>
     <a href="http://www.dmu.ac.uk/">DMU Homepage</a>
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
     <a href="">Page Top</a>
     <p>&copy;Andy Rose CTEC3905 Course Work</p>
   </footer>
 </div>
-<<<<<<< HEAD
-=======
-
 </main>
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
 </body>
 </html>

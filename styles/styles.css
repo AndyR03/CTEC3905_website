@@ -1,39 +1,35 @@
-
 /*Mobile size starts at below 399px width*/
 body
 {
-
-body
-{
   font-family: 'Open Sans', sans-serif;
-
   margin:0;
   padding:0;
-  background: #fff;
+  background: White;
+  color: White;
+
 }
-HEAD
-header
-{
-  background: #000;
+.how_works{
+  display: block;
+  background-color: #384d54;
+}
 main
 {
   margin: 0 1em;
 }
-header
-{
-  background: #fff;
-  color: #000;
-  text-align: center;
-}
+
+
 h1
 {
   font-size: 1.5em;
   margin: 0;
   padding: 1em;
+  color: #0db7ed;
+  background-color: #384d54;
 }
 h2
 {
   font-size: 2.0em;
+  color: #0db7ed;
 }
 section
 {
@@ -45,17 +41,6 @@ section
 }
 
 
-  font-size: 2.0em;
-  text-align: center;
-  background: #fff;
-  color: #000;
-  margin: 0;
-  padding: 1.5em;
-}
-h2
-{
-  font-size: 1.5em;
-}
 /*main {
   max-width: 1000px;
   margin: 0 auto;
@@ -79,12 +64,18 @@ section:hover
 
 
 /*All styles for info boxes*/
+header
+{
+  background-color: #e50000;
+  color: #fff;
+  text-align: center;
+}
 .intro
 {
 display: block;
 height: auto;
 width:auto;
-background-color: white;
+background-color: #384d54;
 margin-top: 20px;
 margin-bottom: 50px;
 }
@@ -100,6 +91,7 @@ margin-bottom: 50px;
 {
   display: block;
   padding-left: 40px;
+  padding-bottom: 40px;
   width: 60%;
 }
 .info_1
@@ -107,50 +99,50 @@ margin-bottom: 50px;
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 }
 .info_2
 {
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 }
 .info_3
 {
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 }
 .info_4
 {
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 }
 .info_5
 {
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
-font-size: 25px;
+background-color: #384d54;
+font-size: 20px;
 }
 .info_6
 {
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 }
 .info_7
 {
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 margin-top: 20px;
 margin-bottom: 50px;
 }
@@ -159,7 +151,7 @@ margin-bottom: 50px;
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 margin-top: 20px;
 margin-bottom: 50px;
 }
@@ -174,6 +166,7 @@ margin-bottom: 50px;
 .image
 {
   display: block;
+  float: left;
   height: auto;
   width:auto;
 }
@@ -385,7 +378,7 @@ grid-column: 2 / 12;
 
   header
   {
-    background: #000;
+    background-color: #384d54;
     color: #fff;
     text-align: center;
   }
@@ -420,7 +413,7 @@ grid-column: 2 / 12;
   display: block;
   height: auto;
   width:auto;
-  background-color: grey;
+  background-color: #384d54;
   margin-top: 20px;
   margin-bottom: 50px;
   }
@@ -445,50 +438,50 @@ grid-column: 2 / 12;
   display: block;
   height: auto;
   width:auto;
-  background-color: grey;
+  background-color: #384d54;
   }
   .info_2
   {
   display: block;
   height: auto;
   width:auto;
-  background-color: grey;
+  background-color: #384d54;
   }
   .info_3
   {
   display: block;
   height: auto;
   width:auto;
-  background-color: grey;
+  background-color: #384d54;
   }
   .info_4
   {
   display: block;
   height: auto;
   width:auto;
-  background-color: grey;
+  background-color: #384d54;
   }
   .info_5
   {
   display: block;
   height: auto;
   width:auto;
-  background-color: grey;
-  font-size: 25px;
+  background-color: #384d54;
+  font-size: 20px;
   }
   .info_6
   {
   display: block;
   height: auto;
   width:auto;
-  background-color: grey;
+  background-color: #384d54;
   }
   .info_7
   {
   display: block;
   height: auto;
   width:auto;
-  background-color: grey;
+  background-color: #384d54;
   margin-top: 20px;
   margin-bottom: 50px;
   }
@@ -687,27 +680,21 @@ grid-column: 2 / 12;
   #tooltipm a span
   {
     display: none;
-    color: #000;
+    color: red;
   }
   #tooltipm a:hover span
   {
     display: block;
     position: absolute;
     width: 400px;
-    background: #fff;
-    color: red;
-    height: 100px;
+    background: white;
+    color: black;
+    height: auto;
     left: auto;
     top: -40px;
     font-size: 18px;
     padding: 0 5px;
     }
-
-
-/* END FIRST BREAKPOINT */
-
-/* SECOND BREAKPOINT (DESKTOP SIZE) */
-@media screen and (min-width: 1000px)
 
 .footer
 {
@@ -721,54 +708,6 @@ grid-column: 2 / 12;
 .footer a{
   color: white;
 }
-
-
-/* FIRST BREAKPOINT (MOBILE SIZE) */
-@media screen and (min-width: 400px)
-{
-body
-{
-  margin:0;
-  padding:0;
-  background: #fff;
-}
-header {
-  background: #fff;
-  color: #000;
-  text-align: center;
-}
-h1 {
-  font-size: 2.0em;
-  text-align: center;
-  background: #000;
-  color: #fff;
-  margin: 0;
-  padding: 1.5em;
-}
-h2 {
-  font-size: 1.5em;
-}
-/*main {
-  max-width: 1000px;
-  margin: 0 auto;
-  background: #eee;
-  text-align: center;
-  padding: 2px;
-}*/
-section {
-  font-size: 1em;
-  background: #888;
-  width: 45%;
-  margin: 1em 1% 1em 1%;
-  display: inline-block;
-}
-section:hover {
-  background: #fff;
-}
-
-}
-/* END FIRST BREAKPOINT */
-
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
 @media screen and (min-width: 800px) {
@@ -865,7 +804,7 @@ section:hover
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 margin-top: 20px;
 margin-bottom: 50px;
 }
@@ -898,28 +837,28 @@ image
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 }
 .info_2
 {
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 }
 .info_3
 {
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 }
 .info_4
 {
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 }
 
 
@@ -930,22 +869,22 @@ background-color: grey;
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
-font-size: 25px;
+background-color: #384d54;
+font-size: 20px;
 }
 .info_6
 {
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 }
 .info_7
 {
 display: block;
 height: auto;
 width:auto;
-background-color: grey;
+background-color: #384d54;
 margin-top: 20px;
 margin-bottom: 50px;
 }
@@ -1191,14 +1130,6 @@ image
 {
   position: relative;
   font-size: 5px;
-
-
-#tooltipm
-{
-  position: relative;
-  font-size 5px;
-
-
 }
 #tooltipm a span
 {
@@ -1211,20 +1142,13 @@ image
   position: absolute;
   width: 400px;
   background: #fff;
-
   color: red;
-
-  color: red:
-
   height: 100px;
   left: auto;
   top: -40px;
   font-size: 18px;
   padding: 0 5px;
   }
-
-
-
 
 }
 /*Close of largest screen setting*/
