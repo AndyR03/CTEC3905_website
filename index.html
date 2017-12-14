@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <!--Metadata what will appear on on a search engine-->
   <title>Intro to Docker</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-
+<!--Start of webpage-->
 <main>
 <div class="intro">
   <h1>An Introduction to Docker Containers</h1>
   <p>Docker is the company driving the container movement and the only container platform provider to address every application across the hybrid cloud.<br/>Today's businesses are under pressure to digitally transform but are constrained by existing applications and infrastructure while rationalizing an increasingly diverse portfolio of clouds, datacenters and application architectures. Docker enables true independence between applications and infrastructure and developers and IT ops to unlock their potential and creates a model for better collaboration and innovation. </p>
-  <p>Docker is the company driving the container movement and the only container platform provider to address every application across the hybrid cloud.<br / />Today's businesses are under pressure to digitally transform but are constrained by existing applications and infrastructure while rationalizing an increasingly diverse portfolio of clouds, datacenters and application architectures. Docker enables true independence between applications and infrastructure and developers and IT ops to unlock their potential and creates a model for better collaboration and innovation. </p>
   <p>The following instructions are for Docker Containers on a Linux machine.</p>
 </div>
-
+<!--8 icons for the different sections.  Active links to the sections-->
 <div class="select">
   <section class="image_gallery">
     <h3>Choose a Section</h3>
@@ -29,12 +29,11 @@
     <a href="#reading"><img src="images/docker-container_ICON_8.jpg" alt="Docker Logo" class="image"></a>
   </section>
 </div>
-
-  <div class="swarm">
-    <img src="images/Swarmnado-357x627-30-1.gif" alt="Docker Logo" class="image">
-  </div>
-
-
+<!--GIF just for decoration-->
+<div class="swarm">
+  <img src="images/Swarmnado-357x627-30-1.gif" alt="Docker Logo" class="image">
+</div>
+<!--System diagram showing layers of software with hover explanations-->
 <div class="how_works">
 <h2 id="how_works">How Docker Containers Work</h2>
 <p>Move your cursor over the grid to reveal the secrets and magic of Docker Containers.</p>
@@ -54,8 +53,7 @@
   <div class="box l1"><p id="tooltipm"><a href="javascript:;">Host Application Files<span>These platforms offer a series of Linux-based application containers (that appear like virtual machines) where you deploy the code you developed on your local computer with a set of command line keywords.</span></a></p></div>
   <div class="box m1"><p id="tooltipm"><a href="javascript:;">Host Operating System Kernel<span>The Linux kernel is an open source monolithic Unix-like computer operating system kernel. The Linux family of operating systems is based on this kernel and deployed on both traditional computer systems such as personal computers and servers, usually in the form of Linux distributions, and on various embedded devices.</span></a></p></div>
 </div>
-</div>
-
+<!--All info blocks to have similar style and colour. Keep simple and easy to read. Purpose is to impart information not dazzle. The commands to install Docker on a Linux system, quick and easy.  No repository or check sums.-->
 <div class="info_1">
   <h2 id="install">Install Docker</h2>
   <p>#Quick Install</p>
@@ -68,7 +66,7 @@
   <p>#Another good check</p>
   <p>sudo docker run -it ubuntu bash</p>
 </div>
-
+<!--Post installation commands-->
 <div class="info_2">
   <h2 id="post">Post Installation</h2>
   <p>To create the docker group and add your user:</p>
@@ -82,7 +80,7 @@
   <p> Verify that you can run docker commands without sudo.</p>
   <p> $ docker run hello-world</p>
 </div>
-
+<!--Container installation-->
 <div class="info_3">
   <h2 id="install_c">Install a Container</h2>
   <p>Create an empty directory. Change directories (cd) into the new directory, create a file called Dockerfile, copy-and-paste the following content into that file, and save it. Take note of the comments that explain each statement in your new Dockerfile.</p>
@@ -99,7 +97,7 @@
   <p># Run app.py when the container launches</p>
   <p>CMD ["python", "app.py"]</p>
 </div>
-
+<!--List of basic commands  &#8594; inserts an arrow from command to result-->
 <div class="info_4">
   <h2 id="commands">Commands</h2>
   <p>Command 	Description</p>
@@ -129,7 +127,7 @@
   <li>docker logout&#8594;   Log out from a Docker registry</li>
   <li>docker logs&#8594;     Fetch the logs of a container</li>
   <li>docker network&#8594; Manage networks</li>
-  <li>docker network&#8594 ; Manage networks</li>
+  <li>docker network&#8594; Manage networks</li>
   <li>docker node&#8594;     Manage Swarm nodes</li>
   <li>docker pause&#8594;    Pause all processes within one or more containers</li>
   <li>docker plugin&#8594;   Manage plugins</li>
@@ -161,7 +159,7 @@
   <li>docker wait&#8594;     Block until one or more containers stop, then print their exit codes</li>
 </ul>
 </div>
-
+<!--Second grid for quiz shares class with first grid.-->
 <div class="how_works">
   <div class="info_5">
     <h2 id="test">Test Yourself</h2><p>Do you know which command is needed for the following actions? &nbsp; &nbsp; Hover over the box to reveal the answer.</p>
@@ -193,7 +191,6 @@
   <p>--update-delay 10s \</p>
   <p>redis:3.0.6</p>
   <p>0u6a4s31ybk7yw2wyvtikmu50</p>
-</div>
 </div>
 
 <div class="info_7">
