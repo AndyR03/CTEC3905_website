@@ -39,16 +39,6 @@ section
   margin: 1em 1% 1em 1%;
   display: inline-block;
 }
-
-section
-{
-  font-size: 1em;
-  background: #000;
-  width: 45%;
-  margin: 1em 1% 1em 1%;
-  display: inline-block;
-}
-
 section:hover
 {
   background: #fff;
@@ -176,10 +166,9 @@ margin-bottom: 50px;
 }
 .box
 {
-    background-color: #000;       /*box*/
+    background-color: #000;     /*box*/
     color: #fff;               /*font*/
     border-radius: 5px;
-    padding: -20px;
     font-size: 100%;
     text-align: center;
 }
@@ -335,17 +324,17 @@ grid-column: 2 / 12;
  grid-row: 12;
 }
 /*Settings for hover on the grids*/
-#tooltipm
+.tooltipm
 {
   position: relative;
   font-size: 5px;
 }
-#tooltipm a span
+.tooltipm a span
 {
   display: none;
   color: #000;
 }
-#tooltipm a:hover span
+.tooltipm a:hover span
 {
   display: block;
   position: absolute;
@@ -666,17 +655,17 @@ grid-column: 2 / 12;
    grid-row: 3;
   }
   /*Settings for hover on the grids*/
-  #tooltipm
+  .tooltipm
   {
     position: relative;
     font-size: 5px;
   }
-  #tooltipm a span
+  .tooltipm a span
   {
     display: none;
     color: red;
   }
-  #tooltipm a:hover span
+  .tooltipm a:hover span
   {
     display: block;
     position: absolute;
@@ -710,46 +699,38 @@ body {
   margin:0;
   padding:0;
   background: #fff;
-}
+  }
+
 header {
   background: #ccc;
   color: #444;
   text-align: center;
-}
+  }
 h1 {
   font-size: 3.5em;
   margin: 0;
   padding: 1em;
-}
+  }
 h2 {
   font-size: 2.0em;
-}
-/*main {
-  max-width: 1000px;
-  margin: 0 auto;
-  background: #eee;
-  text-align: center;
-  padding: 2px;
-}*/
+  }
 section {
   font-size: 1.25em;
   background: #888;
   width: 22%;
   margin: 1em 1% 1em 1%;
   display: inline-block;
-}
+  }
 section:hover {
   background: #fff;
-}
+  }
 
-}
+
 /* END SECOND BREAKPOINT */
 
-
 /* THIRD BREAKPOINT (DESKTOP SIZE) */
-@media screen and (min-width: 1200px)
+@media screen and (min-width: 1200px){
 
-{
 body
 {
   margin:0;
@@ -815,7 +796,7 @@ margin-bottom: 50px;
 {
   display: block;
   height: auto;
-  width:auto;
+  width: auto;
 }
 .swarm
 {
@@ -830,35 +811,35 @@ margin-bottom: 50px;
 {
 display: block;
 height: auto;
-width:auto;
+width: auto;
 background-color: #384d54;
 }
 .info_2
 {
 display: block;
 height: auto;
-width:auto;
+width: auto;
 background-color: #384d54;
 }
 .info_3
 {
 display: block;
 height: auto;
-width:auto;
+width: auto;
 background-color: #384d54;
 }
 .info_4
 {
 display: block;
 height: auto;
-width:auto;
+width: auto;
 background-color: #384d54;
 }
 .info_5
 {
 display: block;
 height: auto;
-width:auto;
+width: auto;
 background-color: #384d54;
 font-size: 20px;
 }
@@ -873,7 +854,7 @@ background-color: #384d54;
 {
 display: block;
 height: auto;
-width:auto;
+width: auto;
 background-color: #384d54;
 margin-top: 20px;
 margin-bottom: 50px;
@@ -1102,17 +1083,17 @@ padding-left: 120px;
 }
 
 /*Settings for hover on the grids*/
-#tooltipm
+.tooltipm
 {
   position: relative;
   font-size: 5px;
 }
-#tooltipm a span
+.tooltipm a span
 {
   display: none;
   color: #000;
 }
-#tooltipm a:hover span
+.tooltipm a:hover span
 {
   display: block;
   position: absolute;
@@ -1124,7 +1105,6 @@ padding-left: 120px;
   top: -40px;
   font-size: 18px;
   padding: 0 5px;
-  }
-
 }
+
 /*Close of largest screen setting*/
