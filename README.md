@@ -1,3 +1,8 @@
+The purpose of this website is to help people get started with Docker.  Docker has in the last few years become almost an industrial standard.  Every Google server now has Docker Containers on it.  With it's quick setup and tear-down time (milliseconds) as opposed to full virtual machines with a boot up time at least a minute they are the future of the internet.  Whole back-end stacks can built on one physical server, although it is advised not to mix containers with normal services as this can cause a not only a clash of resources but a security issue.
+I want a simple lay out which is quick and easy to navigate.  The purpose is to disseminate the information quickly and easily.  Not to entertain, or amuse. The user should be able to go quickly to section they want. After working through the site they should be able to install Docker and run their first container.  Even do some basic setup and maintenance. 
+The user can also see in an interactive diagram how Docker works and another interactive section quizzes them on the most useful commands.
+This rounded off with a small section of useful further reading on other websites. 
+
 2017-11-28 Github tested, HTML frame started,  Folders created, CSS link tested,  Embedded picture (need to move and link) 
 
 2017-11-30 Responsiveness added and tested.
@@ -8,17 +13,13 @@
 
 2017-12-10 Hover boxes set up, layout finalised, colour scheme started. 
 
-<<<<<<< HEAD
-2017-12-Divs added to text and text finished.  Gif added, links to third parties added.
+2017-12-12 Divs added to text and text finished.  Gif added, links to third parties added.  To be done,  Response, HTML and CSS testing.
 
-To be done,  Response, HTML and CSS testing.
+2017-12-14 Response started, HTML and CSS tested faults cleared. Video of site critique made with James.
 
-2017-12-Response started, HTML and CSS tested faults cleared. Video of site critique made with James.
-=======
-2017-12-
+2017-12-17 Beautification started.  Javascript planned. 
 
 2017-12-
->>>>>>> 7f82da6c3a0cdc7d52848db1848b3081b72eb7fe
 
 2017-12-
 
