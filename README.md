@@ -19,7 +19,7 @@ This rounded off with a small section of useful further reading on other website
 
 2017-12-17 Beautification started.  Javascript planned. 
 
-2017-12-
+2017-12-18 Modifications
 
 2017-12-
 
