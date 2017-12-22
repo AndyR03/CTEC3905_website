@@ -3,6 +3,8 @@ I want a simple lay out which is quick and easy to navigate.  The purpose is to 
 The user can also see in an interactive diagram how Docker works and another interactive section quizzes them on the most useful commands.
 This rounded off with a small section of useful further reading on other websites. 
 
+![wireframe](https://github.com/AndyR03/CTEC3905_website/blob/master/Wireframe.jpeg)
+
 2017-11-28 Github tested, HTML frame started,  Folders created, CSS link tested,  Embedded picture (need to move and link) 
 
 2017-11-30 Responsiveness added and tested.
@@ -21,7 +23,7 @@ This rounded off with a small section of useful further reading on other website
 
 2017-12-18 Modifications
 
-2017-12-
+2017-12-22 Javascript added for maps
 
 2017-12-
 
