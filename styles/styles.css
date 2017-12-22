@@ -7,6 +7,13 @@ body
   background: White;
   color: White;
 }
+
+#map{
+  height: 500px;
+  width: auto;
+  color: black;
+}
+
 /*.how_works Class shared by both grids*/
 .how_works
 {
