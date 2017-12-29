@@ -189,7 +189,10 @@ header {
   font-size: 10px;
 }
 
-/*Position described by across the columns 1 digit = 1 space, 1/3 is two spaces starting at first digit-ending BEFORE second digit.*/
+/*Position described by across the columns 1 digit = 1 space,
+1/3 is two spaces starting at first digit-ending BEFORE second digit.
+This allows postioning within the grid to remain constant and in relation to other boxes.
+Grid boxes names must start with a letter in order to be eligable, a number will be rejected.*/
 
 .a1 {
   grid-column: 1 / 3;
@@ -257,8 +260,8 @@ header {
 }
 
 /*Questions and Answers*/
-
-/*Another Grid*/
+/*Another Grid.  This a more simple grid than the first and is for a quiz.
+This is designed to go from 4x3 to 1x12 as the screen shrinks.*/
 
 .wrapper_2 {
   display: grid;
@@ -782,7 +785,8 @@ header {
     color: white;
     font-size: 20px;
   }
-  /*Position described by across the columns 1 digit = 1 space, 1/3 is two spaces starting at first digit-ending BEFORE second digit.*/
+  /*Position described by across the columns 1 digit = 1 space,
+  1/3 is two spaces starting at first digit-ending BEFORE second digit.*/
   .swarm {
     display: block;
     float: right;
